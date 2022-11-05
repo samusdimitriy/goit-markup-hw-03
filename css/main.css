@@ -1,0 +1,103 @@
+
+
+
+
+
+
+/* Main */
+
+.hero .title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero .button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+
+    background-color: var(--accent-text-color);
+
+    cursor: pointer;
+}
+
+.hidden-title {
+    display: none;
+}
+
+.team .name-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.priority-text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--second-text-color);
+    }
+
+.advances .title,
+.work .title,
+.team .title {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.team  p {
+    text-align: center;
+}
+
+.list {
+    list-style: none;
+}
+
+
+.buttons .btn:focus,
+.buttons .btn:hover {
+    background-color: var(--accent-text-color);
+
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+
+    cursor: pointer;
+}
+
+.portfolio-list > img,
+.work-list > img {
+    height: 294;
+}
+
+.portfolio-list .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-text-color);
+}
+
+
+
