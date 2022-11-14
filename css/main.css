@@ -13,13 +13,19 @@ body {
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    width: 1600px;
+    /* width: 1600px; */
+    /* justify-content: center; */
 } 
 
 h2, h3 {
     font-size: 700;
     letter-spacing: 0.03em;
 }
+
+/* .container {
+    display: flex;
+    justify-content: center;
+} */
 
 /* Header */
 
