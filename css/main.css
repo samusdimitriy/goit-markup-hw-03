@@ -29,6 +29,10 @@ h2, h3 {
 
 /* Header */
 
+.main-header {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .container.head-cont {
     display: flex; 
     align-items: center;
@@ -119,18 +123,6 @@ h2, h3 {
 .link-tel:focus {
     color: var(--accent-text-color);
 }
-
-.line {
-    position: absolute;
-    margin: 0;
-    width: 1600px;
-    height: 0px;
-    left: 0px;
-    top: 80px;
-    border: 0.5px solid #ECECEC;
-}
-
-
 
 
 
