@@ -34,7 +34,7 @@ h2, h3 {
     align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
-    max-height: 80px;
+    height: 80px;
 
 }
 
@@ -430,10 +430,12 @@ h2, h3 {
 footer {
     color: #ffffff;
     background-color: var(--background-color);
+    padding: 60px 215px;
+    display: block;
 }
 
 .footer {
-    padding: 60px 215px;
+    
 }
 
 a.footer {
@@ -441,7 +443,8 @@ a.footer {
 }
 
 .address .list {
-    padding: 0;
+    display: block;
+    padding-right: auto;
 }
 
 .address {
